@@ -1,9 +1,189 @@
+<!DOCTYPE html>
 <html>
- 
-<body>
-  <h1>BRAY MAY</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+    <head>
+        <meta charset="utf-8"/>
+        <title>STYLE GUIDE</title>
+        <link rel="stylesheet" href="styles.css" type="text/css"/>
+    </head>
+    <body>
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo"><a href="#top" class="b2t">STYLE GUIDE</a></div>
+            <!-- LINKS -->
+            <div class="menu">
+                <ul class="nav-links">
+                    <li><a href="#colours">COLOURS</a></li>
+                    <li><a href="#fonts">FONTS</a></li>
+                    <li><a href="#paragraphStyles">PARAGRAPH STYLES</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="spacer" id="top">
+        </div>
+
+        <!-------- COLOURS SECTIONS -------->
+        <section class="sections colours">
+            <div class="title" id="colours">
+                <h1>COLOURS</h1>
+                <hr>
+            </div>
+            <div>
+            <div class="mainItem">
+            <h2 class="subheading">DARKS</h2>
+                <div class="items" style="background-color: #232323">
+                </div>
+                <div class="items" style="background-color: #777777">
+                </div>
+                <div class="items" style="background-color: #b4b4b4">
+                </div>
+            </div>
+            <div class="colourTitles">
+                <div class="Titles">
+                    <p>BLACK
+                    <br>#232323</p>
+                </div>
+                <div class="Titles">
+                    <p>DARK GREY
+                    <br>#777777</p>
+                </div>
+                <div class="Titles">
+                    <p>LIGHT GREY
+                    <br>#B4B4B4</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 class="subheading">LIGHTS</h2>
+            <div class="items" style="background-color: #f9f9f9; border: 0.5px solid #dddddd">
+            </div>
+            <div class="items" style="background-color: #dadada">
+            </div>
+            <div class="items" style="background-color: #CDCDCD">
+            </div>
+        </div>
+            <div class="colourTitles">
+                <div class="Titles">
+                    <p>WHITE
+                    <br>#F9F9F9</p>
+                </div>
+                <div class="Titles">
+                    <p>LIGHTER
+                    <br>#DADADA</p>
+                </div>
+                <div class="Titles">
+                    <p>LIGHT
+                    <br>#CDCDCD</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 class="subheading">ACCENTS</h2>
+            <div class="items" style="background-color: blue">
+            </div>
+            <div class="items" style="background-color: #0066FF">
+            </div>
+            <div class="items" style="background-color: #0099FF">
+            </div>
+        </div>
+            <div class="colourTitles">
+                <div class="Titles">
+                    <p>BLUE
+                    <br>#F9F9F9</p>
+                </div>
+                <div class="Titles">
+                    <p>LIGHTER
+                    <br>#DADADA</p>
+                </div>
+                <div class="Titles">
+                    <p>LIGHT
+                    <br>#CDCDCD</p>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+<!-------- FONTS SECTIONS -------->
+        <section class="sections fonts">
+            <div class="title" id="fonts">
+                <h1>FONTS</h1>
+                <hr>
+            </div>
+            <div class="mainfont">
+                <div class="sectionitems">
+                     <h2 class="subheading">ROBOTO MONO</h2>
+                     <div class="font-items">
+                        <h3 class="subsubheading">BOLD</h3>
+                        <p class="monobold">AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+                        <br>The quick brown fox jumps over the lazy dog.</p>
+                        <br>
+                        <h3 class="subsubheading">REGULAR</h3>
+                        <p class="monoreg">AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+                        <br>The quick brown fox jumps over the lazy dog.</p>
+                    </div>
+                </div>
+                <div class="sectionitems">
+                    <h2 class="subheading">ROBOTO</h2>
+                    <div class="font-items">
+                       <h3 class="subsubheading">BOLD</h3>
+                       <p style="font-family: 'RobotoBold', sans-serif; font-weight:bold">AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+                       <br>The quick brown fox jumps over the lazy dog.</strong></p>
+                       <br>
+                       <h3 class="subsubheading">REGULAR</h3>
+                       <p style="font-family: 'RobotoRegular', sans-serif; font-weight: normal">AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+                       <br>The quick brown fox jumps over the lazy dog.</p>
+                   </div>
+               </div>
+            </div>
+        </section>
+
+        <!-------- PARAGRAPHS SECTIONS -------->
+        <section class="sections paragraphStyles" id="paragraphStyles">
+            <div class="title">
+                <h1>PARAGRAPH STYLES</h1>
+                <hr>
+            </div>
+            <div class="sectionitems">
+                <h2 class="subheading">MAIN HEADINGS</h3>
+                <h1>THIS IS A HEADING</h1>
+                <br>
+                <ul style="font-family: 'RobotoRegular', sans-serif; font-weight: normal">
+                    <li>FONT FAMILY: Roboto Mono</li>
+                    <li>FONT WEIGHT: Bold</li>
+                    <li>FONT SIZE: 32px</li>
+                    <li>FONT COLOUR: Blue</li>
+                 </ul>
+               </div>
+               <div class="sectionitems">
+                <h2 class="subheading">SUBHEADING</h3>
+                <h2>THIS IS A SUBHEADING</h2>
+                <br>
+                <ul style="font-family: 'RobotoRegular', sans-serif; font-weight: normal">
+                    <li>FONT FAMILY: Roboto Mono</li>
+                    <li>FONT WEIGHT: Bold</li>
+                    <li>FONT SIZE: 20px</li>
+                    <li>FONT COLOUR: Blue</li>
+                </ul>
+            </div>
+            <div class="sectionitems">
+                <h2 class="subheading">BODY</h3>
+                <p>This is body text.
+                <br>
+                <ul style="font-family: 'RobotoRegular', sans-serif; font-weight: normal">
+                    <li>FONT FAMILY: Roboto</li>
+                    <li>FONT WEIGHT: Regular</li>
+                    <li>FONT SIZE: 16px</li>
+                    <li>FONT COLOUR: Dark Grey</li>
+                </ul>
+            </div>
+        </section>
+        <div class="spacer"></div> 
+    </body>
+
+    <footer>
+        <hr>
+        <div class="links">
+            <span>Design & Code by <a href="https://instagram.com/braydsgns/" target="_blank">bray</a> </span>
+        </div>
+    </footer>
 </html>
